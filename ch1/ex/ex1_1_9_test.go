@@ -1,15 +1,15 @@
 package ex
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func ExampleIntToBitStr() {
+func TestIntToBitStr(t *testing.T) {
 	fmt.Println(intToBitStr(2))
-	// OutPut
-	// 10
 }
 
-func Example() {
+func TestTranM(t *testing.T) {
 	m := [][]int{{1, 2, 3}, {4, 5, 6}}
-	fmt.Println(tranM(m))
-
+	fmt.Println(TranM(m))
 }
